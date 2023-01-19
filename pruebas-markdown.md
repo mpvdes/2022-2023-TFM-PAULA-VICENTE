@@ -1,6 +1,4 @@
 # Pruebas con Markdown
-Aquí irá todo lo demás
-
 **Lorem** ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc vel risus commodo viverra. Urna molestie at elementum eu facilisis sed odio. Habitasse platea dictumst vestibulum rhoncus est. Sagittis orci a scelerisque purus semper eget duis at tellus. Purus in mollis nunc sed id semper risus in hendrerit. Accumsan lacus vel facilisis volutpat est velit egestas dui. Eget sit amet tellus cras adipiscing enim eu turpis. Pharetra sit amet aliquam id. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Ornare arcu dui vivamus arcu felis. Non enim praesent elementum facilisis leo. At elementum eu facilisis sed. Risus at ultrices mi tempus. Etiam dignissim diam quis enim lobortis scelerisque fermentum.
 
 - Quisque egestas diam in arcu cursus. 
