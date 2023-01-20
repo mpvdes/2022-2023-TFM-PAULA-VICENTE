@@ -3,3 +3,4 @@ Este es el reporistorio de trabajo inicial del [Máster Propio en Periodismo de 
 ## Documentos
 - [Pruebas con Markdown](pruebas-markdown.md)
 - [Pruebas Github](pruebas-github.md)
+- [Pruebas terminal](pruebas-terminal-md)
