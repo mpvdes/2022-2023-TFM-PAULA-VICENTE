@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <script>
+         let btn = document.querySelector('button');
+         let para = document.querySelector('p');
+
+         btn.addEventListener('click', updateBtn);
+
+         function updateBtn(){
+             if(btn.textcontent === 'Iniciar máquina'){
+                 btn.textContent = 'Detener máquina';
+                 para.textContent = 'La máquina se detuvo';
+             }
+         }
+
+        </script>
+    </head>
+    <body>
+        <button>Iniciar máquina</button>
+        <p>La máquina se detuvo.</p>
+    </body>
+</html>

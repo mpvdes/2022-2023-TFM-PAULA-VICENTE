@@ -1,63 +1,69 @@
-@font-face {
-    font-family: 'Libre Baskerville';
-    font-style: italic;
+.font-face {
+    font-family: Old Standard TT;
+    font-style: normal;
     font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWx8QDP2V.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    src: url(https://fonts.gstatic.com/s/oldstandardtt/v18/MwQubh3o1vLImiwAVvYawgcf2eVep1q4dHc.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
 
 
+p {
+    font-family: Old Standard TT;
+}
 .row{
-    color: white;
-    background-color :black;
-    border: 2px solid orange;
-    padding: 10px;
-    margin: 5px;
+    background-color:black;
+    border:2px dotted;
+    padding:5px;
+    margin:5px;
 }
 .columna{
-    background-color:yellow;
-    border: 2px dotted brown;
+    background-color: #D6EAF8;
+    border: 2px dotted #D7DBDD;
     padding: 5px;
-    /* margin 5px; */
-
-}
-
-.contendor{
-    background-color:grey;
-    height: 400px;
-
-}
-.caja{
-    color:white;
-    background-color: green;
+    margin: 1,5px;
     text-align: center;
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
-    margin: 10px;
+    color: black;
 }
 
 .portada{
-    background-color:rgb(128,178,240);
+    background-color:#D6EAF8;
                      min-height: 450px;
+}
+.imagen-portada{
+    width: 200px;
+    height:200px;
+    margin:10px;
+    border-radius:40%;
 }
 
 .sobre-mi{
     min-height: 450px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color:RGB(214, 234, 248);
     text-align: center;
 }
-.imagen-portada{
-     width: 150px; 
-           height: 150px;
-           margin: 10px;
-           border-radius: 20%;
-}
+
 .seccion-title{
-    font-size: 2.5rem;
+    font-size: 1rem;
+    margin:40px;
 }
 
 .section-text{
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
+
+.card-img-top{
+    width:200px;
+    height:200px;
+    margin:40px;
+    border-radius: 20%;
+}
+
+.card-body{
+    text-align: start;
+    font-weight:200;
+}
+.carrousel-item{
+    color:black;
+}
+
