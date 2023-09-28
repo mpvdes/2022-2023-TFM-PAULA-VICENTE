@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+	      <meta charset="utf-8" />
+	      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	      <title>El papel de las mujeres en el arte</title>
+	      <meta name="description" content="Scrollama: Sticky Overlay Example" />
+	      <meta name="viewport" content="width=device-width, initial-scale=1" />
+	      <link rel="stylesheet" href="style.css" />
+ 	      <link rel="stylesheet" href="custom.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+    </head>
+    <style>
+     #scrolly {
+		     position: relative;
+		     background-color: #f3f3f3;
+		     padding: 1rem;
+     }
+
+     article {
+		     position: relative;
+		     padding: 0;
+		     max-width: 40rem;
+		     margin: 0 auto;
+     }
+
+     figure {
+		     position: -webkit-sticky;
+		     position: sticky;
+		     left: 0;
+		     width: 100%;
+		     margin: 0;
+		     -webkit-transform: translate3d(0, 0, 0);
+		     -moz-transform: translate3d(0, 0, 0);
+		     transform: translate3d(0, 0, 0);
+		     /* background-color: #8a8a8a; */
+         background-size:cover;
+         background-position: center center;
+		     z-index: 0;
+     }
+     /* // esto es para los numeros del centro  */
+     figure p {
+		     text-align: center;
+		     padding: 1rem;
+		     position: absolute;
+		     top: 50%;
+		     left: 50%;
+		     -moz-transform: translate(-50%, -50%);
+		     -webkit-transform: translate(-50%, -50%);
+		     transform: translate(-50%, -50%);
+		     font-size: 8rem;
+		     font-weight: 900;
+		     color: black;
+		     x}
+
+     .step {
+		     margin: 0 auto 2rem auto;
+		     color: #fff;
+		     background-color: rgba(0, 0, 0, 0.1);
+     }
+
+     .step:last-child {
+		     margin-bottom: 0;
+     }
+
+     .step.is-active p {
+		     background-color: #8E1D00                     ;
+		     color:  white ;
+     }
+     /* esto es para el negro en las barras cuando suben  */
+     .step p {
+		     text-align: center;
+		     padding: 1rem;
+		     font-size: 1.5rem;
+		     background-color: black;
+     }
+
+     .intro__dek{
+         color: black;
+         text-align:justify-around;
+         font-family:serif;
+     }
+     .intro__hed{
+         color:black;
+         font-family: "Times New Roman", Times, serif;
+     }
+
+     .end__hed{
+         color: black;
+         font-family: "Times New Roman", Times, serif;
+         taxt-align:justify-around;
+     }
+
+     .end__dek{
+         color: black;
+         text-align:justify-around;
+         font-family:"Times New Roman", Times, serif;;
+     }
+    </style>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	      <main>
+
+		        <section id="intro">
+			          <h1 class="intro__hed">El papel de las mujeres en el arte</h1>
+			          <p class="intro__dek">
+				            Velázquez, Goya, el Greco. Si pensamos en el nombre de algún pintor seguramente nos venga alguno de los anteriormente mencionados a la cabeza. ¿Pero no había pintoras mujeres? ¿Dónde estaban?
+			          </p>
+		        </section>
+
+		        <section id="scrolly">
+			          <figure>
+				            <p>0</p>
+			          </figure>
+
+			          <article>
+				            <div class="step" data-step="1" data-image="img/fila1.jpg">
+					              <p> El Prado puede ostentar el título de ser una de las pinacotecas más importantes del mundo. Sin embargo, no fue hasta 2016 cuando tuvo su primera exposición dedicada a una mujer. Encontrar una pintura de una mujer en su colección no es tarea fácil. solo tiene 54 obras de mueres en frente a las 6.420 que tiene de hombres.  </p>
+				            </div>
+				            <div class="step" data-step="2" data-image="img/fila2.jpg">
+					              <p>Algo parecido ocurre con el Reina Sofía, también de financiación pública, de las 4.665 obras que tiene en sus fondos, solo 658 tiene como autora a una mujer.       </p>
+				            </div>
+				            <div class="step" data-step="3" data-image="img/fila3.jpg">
+					              <p><img src="img/museos-mujeres.png" alt="5px" </p>
+				            </div>
+				            <div class="step" data-step="4" data-image="img/fila4.jpg">
+					              <p>Pasear por los pasillos de ambos museos y encontrar una pintura cuya autora sea una mujer es prácticamente imposible. De las 1.136 obras expuestas en el prado, solo 14 están pintadas por una mujer. En el caso del Reina Sofía, de las 333 pinturas expuestas, solo 36 son de mujeres.   </p>
+				            </div>
+                    <div class="step" data-step="5" data-image="img/fila2.jpg">
+					              <p><img src="img/expuestos.png" alt="5px" </p>
+                    </div>
+                    <div class="step" data-step="6" data-image="img/fila2.jpg">
+					              <p>Analizando todas las obras expuestas en el museo Reina Sofía cuya autoría sea la de una mujer. Podemos observar que la ocupación más común es la de pintora, con 2,150 casos, seguida de las de artista con 1.451 casos. </p>
+	                  </div>
+                    <div class="step" data-step="7" data-image="img/fila4.jpg">
+                        <p><img src="img/mujeres-ocupacion.png" alt="5px" </p>
+                    </div>
+			          </article>
+		        </section>
+            <div class="container-sm">
+                
+            <section id="end">
+                <h1 class="end__hed"> La mujer y el arte</h1>
+                <p class="end__dek">
+  <p>Desde que el hombre es un sapiens-sapiens, los arqueólogos no dudan en calificar al hombre como 'artista'. Los hombres cazaban y las mujeres se encargaban de cuidar el hogar, de recoger todo lo que la tierra pudiera brindarles para su alimentación, de proteger y cuidar a los niños. </p><p> La mujer ocupa un papel 'relevante' y los artistas de la tribu plasman esta necesidad y empiezan, en cierto modo, a venerar la imagen de lo que ellas representan. Esta es la interpretación que se da a las llamadas Venus Paleolíticas.</p><p> En el mundo clásico, la mujer tampoco tiene una posición relevante. No tenían derechos políticos y, ni siquiera eran consideradas ciudadanas. Sin  embargo, los ideales de la cultura brillaban en el arte que los griegos fueron capaces de forjar y, la mujer es una protagonista indiscutible en esta afirmación.</p><p> La mujer entra en la vida medieval con no muy buen cartel… Santo Tomás de Aquino dijo de ella: 'La mujer ha sido creada para ayudar al hombre, pero sólo en la procreación… pues para cualquier otra cosa el hombre tendría en otro hombre mejor ayuda que la mujer'. </p><p> Con la llegada del Renacimiento en los siglos XV y XVI, la figura humana será contemplada con verdadera deferencia. La mujer vuelve a adquirir los cánones de belleza clásica, pero también es una mujer moderna, que vive su propio mundo, que forma parte de su familia con protagonismo, que asiste a la vida cultural, etc. </p><p> Pasados los años, en la corte de los Austrias, Felipe II gestaba su tercer matrimonio con Isabel de Valois Entra en escena, entonces, una mujer pintora, la italiana Sofonisba Anguissola que fue llamada para que retratara a la familia real, así como ejercer su cargo de Dama de Honor de la Reina. Sofonisba es toda una novedad en la Historia del Arte porque hay pocas artistas hasta llegar al siglo XX.</p><p> Quizás ya ha llegado un nuevo tiempo para las mujeres porque desde finales del siglo anterior se critica la dependencia económica de éstas en el matrimonio. Se alzan voces que exigen que las leyes del Estado sean el instrumento para acabar con la subordinación femenina. Por primera vez se habla de principios morales y costumbres que se tienen que cambiar para que la mujer pueda asumir plenamente su condición de ciudadana que hasta la fecha se le ha vetado. </p><p>Del siglo XX se distinguen muchos artistas porque ha sido un siglo muy prolífico para el arte. La imagen de la mujer queda en manos de los caprichos del pintor. </p></p>
+
+                    <h1 class="end__hed"> El origen de las artistas</h1>
+                    <p class="end__dek">
+                        Tras hacer un recorrido histórico por el papel de la mujer a lo largo del arte. FALTA PEGAR TEXTO MUJER   <p><img src="img/mujeres-paises.png" alt="5px" </p> <p> aqui va más texto también </p> <p><img src="img/mujeres-pocos-paises.png" alt="5px" </p></p>
+            </section>
+            </div>
+
+            <!-- aqui van las cards -->
+            <div class="card-group  container-sm">
+                <div class="card">
+                    <img src="img/visita-sexo.png" class="card-img-top" alt="5px">
+                    <div class="card-body">
+                        <h5 class="card-title">Visitas a los museos según el sexo</h5>
+                        <p class="card-text"> No existe una diferencia significativa entre el número de hombres y el de mujeres que visitan los museos en la actualidad.</p>
+                       
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/visita_edad.png" class="card-img-top" alt="5px">
+                    <div class="card-body">
+                        <h5 class="card-title">Visita a los museos según el rango de edad</h5>
+                        <p class="card-text">Se observa que el rango de personas que visitan los museos es mayor entre los 19 y 35 años y disminuye a más edad. Se podría concluír que existe un mayor interes por el arte entre las personas jóvenes.</p>
+                       
+                    </div>
+                </div>
+            </div>
+	      </main>
+
+	      <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+	      <script src="scrollama.min.js"></script>
+	      <script>
+	       // using d3 for convenience
+	       var main = d3.select("main");
+	       var scrolly = main.select("#scrolly");
+	       var figure = scrolly.select("figure");
+	       var article = scrolly.select("article");
+	       var step = article.selectAll(".step");
+
+	       // initialize the scrollama
+	       var scroller = scrollama();
+
+	       // generic window resize listener event
+	       function handleResize() {
+			       // 1. update height of step elements
+			       var stepH = Math.floor(window.innerHeight * 0.75);
+			       step.style("height", stepH + "px");
+
+			       var figureHeight = window.innerHeight / 2;
+			       var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+
+			       figure
+				         .style("height", figureHeight + "px")
+				         .style("top", figureMarginTop + "px");
+
+			       // 3. tell scrollama to update new element dimensions
+			       scroller.resize();
+	       }
+
+	       // scrollama event handlers
+	       function handleStepEnter(response) {
+			       console.log(response);
+			       // response = { element, direction, index }
+
+			       // add color to current step only
+			       step.classed("is-active", function (d, i) {
+				         return i === response.index;
+			       });
+
+			       // update graphic based on step
+			       figure.select("p").text(response.index + 1);
+             figure.style("background-image","url("+response.element.dataset.image+")")
+	       }
+
+
+	       function init() {
+
+			       // 1. force a resize on load to ensure proper dimensions are sent to scrollama
+			       handleResize();
+
+			       // 2. setup the scroller passing options
+			       // 		this will also initialize trigger observations
+			       // 3. bind scrollama event handlers (this can be chained like below)
+			       scroller
+				         .setup({
+					           step: "#scrolly article .step",
+					           offset: 0.33,
+					           debug: false
+				         })
+				         .onStepEnter(handleStepEnter);
+	       }
+
+	       // kick things off
+	       init();
+	      </script>
+
+    </body>
+
+</html>

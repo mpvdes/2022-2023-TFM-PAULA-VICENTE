@@ -1,0 +1,86 @@
+#scrolly {
+		position: relative;
+}
+
+article {
+		position: relative;
+		padding: 0 1rem;
+		margin: 0 auto;
+		width: 33%;
+}
+
+.step {
+		margin: 2rem auto 4rem auto;
+		padding: 1rem;
+		border: 2px solid #f3f3f3;
+    font-family: Times, "Times New Roman", Georgia, serif;
+
+}
+
+.step p {
+		text-align: center;
+		margin: 0.5rem auto;
+		font-size: 1.5rem;
+}
+.portada{
+    margin:3em;
+    text-align:center;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-weight: 800; 
+    font-size: xx-large;
+
+}
+.entradilla{
+    margin: 3em;
+    text-align:center;
+    font-family: Georgia, serif;
+}
+.articulo{
+    font-family: Times, "Times New Roman", Georgia, serif;
+    text-align:justify ;
+    margin-top:5em;
+    margin-bottom:5em:
+
+}
+
+.subtitulo{
+    font-family: Times, "Times New Roman", Georgia, serif;
+    text-align:center;
+    margin:1em;  
+}
+
+.columna{
+    font-family: Times, "Times New Roman", Georgia, serif;
+    text-align:justify;
+    margin:0em;
+}
+.grafico-obras-museo{
+    width: 580px;
+    height:436px;
+    margin:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.grafico{
+    width: 500px;
+    height:400px;
+}
+.card{
+    margin:3em;
+}
+.card-img-top{
+    
+}
+
+.card-title{
+    font-family: Times, "Times New Roman", Georgia, serif;
+    text-align:center; 
+}
+
+.card-text{
+   font-family: Times, "Times New Roman", Georgia, serif;
+   text-align:center;
+}
