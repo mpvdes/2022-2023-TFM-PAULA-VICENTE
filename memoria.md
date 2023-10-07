@@ -110,7 +110,7 @@ Gráficos empleados:
 
 El diseño de la web fue variando a lo largo del proyecto. Finalmente decidí que una imagen del cuadro 'Judit decapitando a Holofernes' de Artemisia Gentileschi fuera lo primero que se viera ya que le aporta fuerza al proyecto.
 
-Las fuentes empleada es Open Sans, Helvetica, sans-serif con el objetivo de que no sobrecargara el proyecto. 
+La fuente empleada es Open Sans, Helvetica, sans-serif con el objetivo de que no sobrecargara el proyecto. 
 
 Los colores de fondo del proyecto son el #4C3A51 y el #774360. Los colores de los gráficos son el #B25068 y el #E7AB79. La elección de estos cuatro colores la hice ayudándome de una paleta cromática en la que podía combinar varios colores para ver cómo quedaban. 
 
