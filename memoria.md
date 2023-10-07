@@ -1,4 +1,4 @@
-# Trabajo de Fin de Máster: *Las mujeres en el arte:musas y artistas*
+# Trabajo de Fin de Máster: *Las mujeres en el arte: musas y artistas*
 **Autora: Paula Vicente Sisó**
 
 Máster de Visualización y Periodismo de Datos
