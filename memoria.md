@@ -39,7 +39,7 @@ Estas fueron las bases que consulté en ese momento:
   - [*Hablando en data*](https://www.museoreinasofia.es/biblioteca-centro-documentacion/hablando-data)
   - [*El Prado en Femenino*](https://www.mitma.gob.es/vivienda/alquiler/indice-alquiler)
   - [*Las mujeres artistas se abren paso en los museos de Madrid*](https://www.lavanguardia.com/ocio/viajes/20220308/8105063/mujeres-artistas-museos-madrid.html)
-  - [*Historia del Arte con nombre de mujer. Manuel Jesús Roldán*]
+  - Historia del Arte con nombre de mujer. Manuel Jesús Roldán
   - [*Museos en femenino*](http://www.xn--espaaescultura-tnb.es/es/propuestas_culturales/museos-en-femenino.html)
  
 También me puse en contacto con el Museo del Prado y el Reina Sofía para ver si me podían dar más información. El Reina Sofía me remitió a su web 'Hablandoendata.com' y el Museo del Prado solo pudo darme las cifras de las obras de mujeres que tenían.
